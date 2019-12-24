@@ -1,5 +1,8 @@
 # FINSOC
 
-pg_ctl start -l /usr/var/postgres/server.log
+To set up, run `./setup.sh`. This only needs to be run once successfully.
 
-rails s
+Once setup, start up postgresql 9.6 with
+`sudo service postgresql start`
+and the server with
+`rails server`
